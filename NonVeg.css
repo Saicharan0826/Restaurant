@@ -1,0 +1,84 @@
+body{
+    background: url(../asset/menu-3167859_1280.jpg);
+    background-repeat: no-repeat;
+    
+}
+#c{
+    margin-top: 300px;
+    margin-left: 70px;
+    color: blanchedalmond;
+    
+}
+#d{
+    margin-top: 30px;
+    margin-left: 70px;
+    color: blanchedalmond;
+}
+#f{
+   margin-left: 70px;
+    color: blanchedalmond; 
+}
+#g{
+    color: blanchedalmond; 
+    margin-left: 350px;
+    
+   position: relative;
+   left: -10px;
+   top: -357px;
+}
+#h{
+    color: blanchedalmond;
+   position: relative;
+   
+   top :-345px;
+   right: -340px;
+}
+#i{
+    color: blanchedalmond;
+    position: relative;
+    right: -340px;
+    top: -345px;
+}
+button{
+    border-radius: 15px 15px 15px 15px;
+    cursor: pointer;
+
+}
+button:hover{
+   transition: 2s;
+   color: orange;
+
+}
+#s{
+    position: relative;
+    right: -200px;
+    top: -320px;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+#v{
+    position: relative;
+    right: -260px;
+    top: -320px;
+    color: antiquewhite;
+}
+a{
+    color: lemonchiffon;
+}
+#w{
+    position: relative;
+   right: -220px;
+   top: -330px;
+   color: aliceblue;
+}
+#y{
+    position: relative;
+    top: -340px;
+    right: -260px;
+    color: aliceblue;
+}
+#abh{
+    width: 540px;
+    height:500px;
+}

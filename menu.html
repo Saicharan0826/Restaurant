@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+   <div id="a">
+<h4>ARE YOU HUNGRY ?<br>Order here 😋😋</h4>
+</div>
+  <div id="z">
+    <h3 id="y"><u>VEG-ITEMS </u></h3>
+    
+    <ul>
+<li>
+    <h3> ~Paneer-Biryani </h3>
+    <p>Price: 200-Rs</p>
+    <button onclick="orderItem('Veg-Biryani',200)">Order Now</button>
+
+</li>
+<li>
+    <h3>~ VEG-pizza </h3>
+    <p>Price: 69-Rs</p>
+    <button onclick="orderItem('Veg-pizza',69)">Order Now</button>
+
+</li>
+<li>
+    <h3>~ VEG-Pulao </h3>
+    <p>Price:199-Rs</p>
+    <button onclick="orderItem('VEG-Pulao',199)">Order Now</button>
+
+</li>
+<h5><u>To Order Non-Veg Click On Non-Veg🍗</u>
+    
+</h5>
+<a id="d" href="Nonveg.html">NON-VEG</a>
+    </ul>
+  </div>
+  <script>
+    function orderItem(itemName, price) {
+        let quantity = prompt("How many plates do you want to order?");
+        let totalAmount = price * quantity;
+        alert(`You have ordered ${quantity} plates of ${itemName}. The total amount is Rs:${totalAmount}.`);
+    }
+</script>
+</body>
+</html>

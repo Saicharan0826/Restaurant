@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="NonVeg.css">
+</head>
+<body>
+    <div id="abh">
+    <ul>
+        <li id="c">
+            <h3> Chicken-BIRYANI </h3>
+            <p>Price: 200-Rs</p>
+            <button onclick="orderItem('Chicken-BIRYANI',200)">Order Now</button>
+        </li>
+        <li id="d">
+            <h3> Mandi-BIRYANI </h3>
+            
+            <p>Price: 300-Rs</p>
+            <button onclick="orderItem('Mandi-BIRYANI',300)">Order Now</button>
+        </li>
+
+        <li id="f">
+            <h3>Fish-BIRYANI </h3>
+            <p>Price: 700-Rs</p>
+            <button onclick="orderItem('Fish-BIRYANI',700)">Order Now</button>
+        </li>
+        </ul>
+        <ul>
+            <li id="g">
+                <h3>Prawns-BIRYANI </h3>
+                <p>Price: 1200-Rs</p>
+                <button onclick="orderItem('Prawns-BIRYANI',1200)">Order Now</button>
+            </li>
+
+            <li id="h">
+                <h3>Boti-Biryani </h3>
+                <p>Price: 600-Rs</p>
+                <button onclick="orderItem('Boti-Biryani',600)">Order Now</button>
+            </li>
+
+            <li id="i">
+                <h3>Keema-Chapthi </h3>
+                <p>Price: 100-Rs</p>
+                <button onclick="orderItem('Keema-Chapthi',100)">Order Now</button>
+            </li>
+        </ul>
+        <p id="s"><u>Thank-You Enjoy You Meal 🍗🍴</u></p>
+        <p id="v">Visit us <a href="Visit.html">www.Maruthi.in</a></p>
+        <p id="w">Mail-us:charanabhiyadav@gmail.com 📩  </p>
+        <p id="y">Contact-No📞:9000371670 </p>
+         <p></p>        
+       
+        <script>
+            function orderItem(itemName, price) {
+                let quantity = prompt("How many plates do you want to order?");
+                let totalAmount = price * quantity;
+                alert(`You have ordered ${quantity} plates of ${itemName}. The total amount is Rs: ${totalAmount}.`);
+            }
+        </script>
+        </div>
+</body>
+</html>
